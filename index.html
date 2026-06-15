@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONE TICKET - India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>ONE TICKET</h1>
+    <h3>Future of Seamless Urban Mobility</h3>
+
+    <label>Select Source</label>
+    <br><br>
+
+    <select id="source">
+        <option>Delhi Metro Station</option>
+        <option>Mumbai CST</option>
+        <option>Bengaluru Majestic</option>
+        <option>Hyderabad Raidurg</option>
+        <option>Chennai Central</option>
+        <option>Kolkata Howrah</option>
+        <option>Jaipur Junction</option>
+        <option>Ahmedabad Kalupur</option>
+        <option>Pune Station</option>
+        <option>Lucknow Charbagh</option>
+    </select>
+
+    <br><br>
+
+    <label>Select Destination</label>
+    <br><br>
+
+    <select id="destination">
+        <option>Mumbai CST</option>
+        <option>Delhi Metro Station</option>
+        <option>Bengaluru Majestic</option>
+        <option>Hyderabad Raidurg</option>
+        <option>Chennai Central</option>
+        <option>Kolkata Howrah</option>
+        <option>Jaipur Junction</option>
+        <option>Ahmedabad Kalupur</option>
+        <option>Pune Station</option>
+        <option>Lucknow Charbagh</option>
+    </select>
+
+    <br><br>
+
+    <label>Select Route Preference</label>
+    <br><br>
+
+    <select id="route">
+        <option>Fastest Route</option>
+        <option>Cheapest Route</option>
+        <option>Eco-Friendly Route</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="generateTicket()">Generate Ticket</button>
+    <button onclick="payNow()">Pay Now</button>
+
+    <br><br>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
